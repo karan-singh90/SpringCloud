@@ -1,0 +1,100 @@
+2019-12-12 15:50:57,382 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 15:50:58,352 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2019-12-12 15:50:59,585 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=EmployeeService, profiles=[default], label=null, version=null, state=null
+2019-12-12 15:50:59,586 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[OriginTrackedMapPropertySource {name='classpath:/common-config/application.properties'}]}
+2019-12-12 15:50:59,610 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-12 15:51:01,143 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 15:51:01,359 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 209ms. Found 0 repository interfaces.
+2019-12-12 15:51:01,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 15:51:01,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30ms. Found 1 repository interfaces.
+2019-12-12 15:51:01,556 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-12 15:51:01,708 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-12 15:51:01,981 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=155569a0-4959-3eaa-8a07-f063d198f4cc
+2019-12-12 15:51:02,614 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 15:51:03,629 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-12-12 15:51:03,642 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-12 15:51:03,642 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-12-12 15:51:03,643 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 15:51:03,909 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-12-12 15:51:03,909 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4280 ms
+2019-12-12 15:51:04,145 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-12-12 15:51:04,146 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-12 15:51:04,170 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5cd71ee2
+2019-12-12 15:51:05,559 INFO com.datastax.driver.core.Cluster [main] DataStax Java driver 3.7.2 for Apache Cassandra
+2019-12-12 15:51:05,641 INFO com.datastax.driver.core.GuavaCompatibility [main] Detected Guava < 19 in the classpath, using legacy compatibility layer
+2019-12-12 15:51:05,909 INFO com.datastax.driver.core.Native$LibCLoader [main] Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2019-12-12 15:51:05,910 INFO com.datastax.driver.core.ClockFactory [main] Using java.lang.System clock to generate timestamps.
+2019-12-12 15:51:06,296 INFO com.datastax.driver.core.NettyUtil [main] Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2019-12-12 15:51:09,734 WARN com.datastax.driver.core.Cluster$Manager [main] You listed localhost/0:0:0:0:0:0:0:1:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2019-12-12 15:51:09,914 INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy [main] Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2019-12-12 15:51:09,915 INFO com.datastax.driver.core.Cluster$Manager [main] New Cassandra host localhost/127.0.0.1:9042 added
+2019-12-12 15:51:10,542 WARN org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration [main] Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@426bf2f2}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request}]
+2019-12-12 15:51:13,469 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-12 15:51:13,736 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-12-12 15:51:13,736 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-12 15:51:13,898 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 15:51:15,339 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-12 15:51:16,473 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-12 15:51:16,639 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-12-12 15:51:16,743 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-12-12 15:51:16,817 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-12-12 15:51:16,818 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-12-12 15:51:17,021 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-12-12 15:51:17,023 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-12-12 15:51:17,306 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-12-12 15:51:17,927 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-12-12 15:51:17,928 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-12-12 15:51:17,928 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-12-12 15:51:17,928 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-12-12 15:51:17,929 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-12-12 15:51:17,929 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-12-12 15:51:17,929 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-12-12 15:51:18,063 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-12-12 15:51:18,067 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-12-12 15:51:18,072 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-12 15:51:18,077 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1576146078076 with initial instances count: 3
+2019-12-12 15:51:18,093 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application EMPLOYEESERVICE with eureka with status UP
+2019-12-12 15:51:18,093 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1576146078093, current=UP, previous=STARTING]
+2019-12-12 15:51:18,096 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EMPLOYEESERVICE/host.docker.internal:EmployeeService:8080: registering service...
+2019-12-12 15:51:18,097 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-12 15:51:18,119 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-12 15:51:18,136 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EMPLOYEESERVICE/host.docker.internal:EmployeeService:8080 - registration status: 204
+2019-12-12 15:51:18,156 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-12 15:51:18,459 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-12-12 15:51:18,482 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-12 15:51:18,484 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8080
+2019-12-12 15:51:19,352 INFO org.springframework.boot.StartupInfoLogger [main] Started MainApplication in 23.875 seconds (JVM running for 24.753)
+2019-12-12 15:56:17,934 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:01:17,937 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:06:17,941 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:11:17,946 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:16:17,947 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:21:17,950 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:26:17,953 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:31:37,692 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:36:37,694 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:41:37,695 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:46:37,699 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:51:37,700 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 16:56:37,705 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:01:37,706 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:06:37,711 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:11:37,713 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:16:37,717 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:21:37,720 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:26:37,722 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:31:37,726 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:36:37,727 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:41:37,731 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:46:37,734 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 17:51:37,738 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:19:47,903 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:24:47,906 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:29:47,908 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:43:09,776 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:48:09,779 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:53:09,781 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-12-12 18:55:57,223 ERROR com.datastax.driver.core.ControlConnection$1 [cluster1-reconnection-0] [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+2019-12-12 18:55:58,226 ERROR com.datastax.driver.core.ControlConnection$1 [cluster1-reconnection-0] [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+2019-12-12 18:56:00,229 ERROR com.datastax.driver.core.ControlConnection$1 [cluster1-reconnection-0] [Control connection] Cannot connect to any host, scheduling retry in 4000 milliseconds
+2019-12-12 18:56:04,232 ERROR com.datastax.driver.core.ControlConnection$1 [cluster1-reconnection-0] [Control connection] Cannot connect to any host, scheduling retry in 8000 milliseconds

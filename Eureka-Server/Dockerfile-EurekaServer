@@ -1,0 +1,6 @@
+FROM alpine-jdk:base
+MAINTAINER Karan
+copy ./target/Eureka-Server-0.0.1-SNAPSHOT.jar Eureka-Server-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["/usr/bin/java"]
+CMD ["-jar", "/opt/lib/Eureka-Server-0.0.1-SNAPSHOT.jar"]
+EXPOSE 1002

@@ -1,0 +1,14 @@
+spring:
+  data:
+    cassandra:
+      keyspaceName: testkeyspace
+      contactPoints: localhost
+      port: 9042
+      schemaAction: CREATE_IF_NOT_EXISTS
+#server:
+#  port: ${appPort:8800}
+#  additionalPorts: 8881,8882
+#Eureka:
+#  instance:
+#    instanceId:
+#       ${spring.application.name}:${vcap.application.instance_id:{vcap.application.instance_id${random.value}}}
